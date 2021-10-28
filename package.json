@@ -1,0 +1,14 @@
+{
+  "name": "charactercreator",
+  "version": "1.0.0",
+  "description": "This is where I put some information for other programmers.",
+  "main": "index.js",
+  "scripts": {
+    "sync": "browser-sync start -s -f index.html --files 'src' --no-ui --no-notify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
